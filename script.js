@@ -16,7 +16,7 @@ function getDoggo() {
 }
 
 function updateDoggo(url) {
-  let doggo
+  let doggo;
   if (url.includes("ERROR")) {
     doggo = document.createElement("P")
     doggo.className = "Error"
