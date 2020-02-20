@@ -3,12 +3,20 @@ body {
   min-height: 100vh;
   margin: 0px;
   text-align: center;
-  font-family: 'Gloria Hallelujah'
+  font-family: 'Gloria Hallelujah';
+  background-image: url('/images/Dog-Background.png');
+  background-size: 25%;
+  background-repeat: repeat;
+  background-color: #324759;
 }
 
 img, video {
   width: 25%;
   height: auto;
+  border: 30px solid;
+  border-image-source: url("/images/Dog-Border-Red.png");
+  border-image-slice: 250;
+  border-image-repeat: round;
 }
 
 .doggoContainer {
@@ -43,8 +51,30 @@ img, video {
   color: #D9D9D9;
 }
 
+.footer img {
+  width: auto;
+  height: 30px;
+  padding-left: 5px;
+  border: 0px;
+}
+
+.getButtonContainer {
+  background-image: url("/images/Dog-House.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 80px;
+}
+
 .contentContainer {
   padding-bottom: 40px;
+  margin: 5%;
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+}
+
+.spacer {
+  padding: 45px;
 }
 
 /* Desktop Styles */
