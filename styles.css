@@ -10,8 +10,12 @@ body {
   background-color: #324759;
 }
 
+h1 {
+  padding-top: 10px;
+}
+
 img, video {
-  width: 25%;
+  width: 35%;
   height: auto;
   border: 30px solid;
   border-image-source: url("/images/Dog-Border-Red.png");
