@@ -15,6 +15,7 @@ h1 {
 }
 
 img, video {
+  margin-top: 15px;
   width: 35%;
   height: auto;
   border: 30px solid;
@@ -43,7 +44,7 @@ img, video {
 }
 
 .footer a:visited {
-  color: #757575;
+  color: #F2D8A7;
 }
 
 .footer p {
@@ -58,7 +59,7 @@ img, video {
 .footer img {
   width: auto;
   height: 30px;
-  padding-left: 5px;
+  padding-left: 13px;
   border: 0px;
 }
 
