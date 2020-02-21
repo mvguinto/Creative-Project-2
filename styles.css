@@ -16,7 +16,7 @@ h1 {
 
 img, video {
   margin-top: 15px;
-  width: 35%;
+  width: 30%;
   height: auto;
   border: 30px solid;
   border-image-source: url("/images/Dog-Border-Red.png");
@@ -57,6 +57,7 @@ img, video {
 }
 
 .footer img {
+  margin-top: 0px;
   width: auto;
   height: 30px;
   padding-left: 13px;
@@ -86,11 +87,5 @@ img, video {
 @media only screen and (min-width: 961px) {
   .footer {
     font-size: 20px;
-  }
-
-  .footer-spacer {
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 35px;
   }
 }
