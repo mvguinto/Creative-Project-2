@@ -1,5 +1,5 @@
 function getDoggo() {
-  let url = "http://random.dog/woof.json"
+  let url = "https://random.dog/woof.json"
 
   fetch(url)
     .then(response => {
