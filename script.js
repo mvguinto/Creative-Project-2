@@ -1,7 +1,7 @@
 function getDoggo() {
   let url = "http://random.dog/woof.json"
 
-  Fetch.fetchWithInit(url, Fetch.RequestInit.make(~mode=Fetch.NoCORS, ()))
+  fetch(url)
     .then(response => {
       if (response.status !== 200) {
         return {
